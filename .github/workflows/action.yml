@@ -1,0 +1,7 @@
+name: workflow with action 
+
+on: push 
+
+env: ${{ secrets.env_variable }}
+
+jobs:
