@@ -15,5 +15,5 @@ jobs:
       - name: upload atrtifact action 
         uses: actions/upload-artifact@v4.6.2
         with: 
-          name: $ARTIFACT_VARIABLE
+          name: ${{ env.ARTIFACT_VARIABLE }}
           path: ./hello-world.txt
